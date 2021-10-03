@@ -1,0 +1,59 @@
+code 
+{
+  background-color: #73bcec; 
+  color: #fff;
+  font-size: 2rem; 
+  font-family: Verdana; 
+  border: 2px solid #060bfa;
+  display: block;
+  text-align: center;
+  
+}
+
+section
+{
+  width: 30%;
+  height: 400px;
+  border:2px solid #060bfa;
+  float: left;
+  border-radius: 6px;
+  margin: 12px 1.5% 24px 1.5%;
+  background-color: red; 
+}
+
+header
+{
+  margin-top: 1em;
+  margin-bottom:1em;
+
+}
+footer
+{
+	clear:both;
+}
+
+.c1
+{
+	background-color: green;
+}
+
+p
+{
+  text-align: justify;
+  margin: 18px;
+}
+
+.s1
+{
+	background: purple;
+	color: #fff;
+}
+.s2
+{
+	background: grey;
+}
+.c2 
+{
+color: green;
+
+}
