@@ -1,0 +1,37 @@
+.page	
+{
+border: 5px solid skyblue;
+border-radius: 4px;
+width: 800px;
+height: 800px;
+font-size: 16px;
+font-family: verdana;
+margin: auto;
+padding:10px;
+box-shadow: 2px 4px 3px black;
+
+}
+
+.en-tete
+{
+	border: 2px solid green;
+	height: 150px;
+
+}
+
+.info
+{
+	float: left;
+}
+
+.photo
+{
+	float: right;
+
+}
+.section1
+{
+	border: 2px solid black;
+	margin: auto;
+
+}
