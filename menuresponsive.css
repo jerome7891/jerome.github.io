@@ -100,6 +100,11 @@ border-top: 5px solid #bbb;
 background-color: RGBa(220, 220 ,220, 0.15);
 }
 
+.menu-java:hover{
+	border-top: 5px solid #fff
+	background-color: rgb(205, 92, 92);
+}
+
 nav > ul > li:hover a{
 padding: 15px 30px 20px 30px;
 }
@@ -116,6 +121,10 @@ background-color: rgb(251, 216, 99);
 .menu-contact .submenu{
 background-color: rgb(192, 192, 192);
 }
+.menu-java .submenu{
+	background-color: rgb(205, 92, 92)
+}
+
 
 .submenu li:hover a{
 color: #eee;
@@ -136,6 +145,10 @@ background-color: rgb(200, 165, 75);
 
 .menu-contact .submenu li:hover{
 background-color: rgb(192, 192, 192);
+}
+
+.menu-java .submenu li:hover{
+	background-color: rgb(205, 92, 92);
 }
 
 .menu-mobile{
