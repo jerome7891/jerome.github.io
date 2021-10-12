@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="stylejav.css">
+<script type="text/javascript"> 
+	var note1= prompt("donner une première note")
+	var note2= prompt("donner une deuxièeme note")
+	var note3= prompt("donner une troisième note")
+
+
+	var somme=note1*2 + note2*2 +note3*3;
+	var moyenne= somme / 7;
+		if (moyenne >10)
+			{
+		 document.write("bac obtenue")
+		document.bgColor ="green";
+		}
+
+		else if (moyenne>=8)
+		{
+			document.write("rattrapage")
+			document.bgColor = "orange";
+		}
+		else
+		{
+			document.write( "bac rater")
+		document.bgColor = "red";
+		}
+
+	document.write("<table border=2><tr>");
+	document.write("<td>voila la somme:"+somme +"<br></td>");
+	document.write("<td>voila la moyenne:"+moyenne+ "</td>");
+	document.write("</tr></table>");
+
+	</script>
+</table>
+</body>
+</html>

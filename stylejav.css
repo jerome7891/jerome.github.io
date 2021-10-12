@@ -1,0 +1,22 @@
+p1{
+	color: red;
+	font-size: 60px;
+}
+
+p2{
+	color: blue;
+	font-size: 60px;
+}
+
+.carre
+{
+	color: red;
+	border: 5px solid blue;
+	background-color: yellow;
+	border-radius: 2px;
+	width: 20%;
+	height: 30%;
+	padding: 30px;
+	margin: auto;
+
+}
