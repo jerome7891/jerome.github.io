@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<p><u>Requete 0) Afficher les informations sur les voitures de couleur noir </u><br>
+SELECT *  <br>
+ FROM ` voiture`  <br>
+WHERE `couleur’=’noir’  <br> <br>
+
+<u>Requete 1)  Afficher toutes les informations sur les clients qui habitent à Paris  </u><br>
+SELECT *  <br>
+ FROM ` clients’  <br>
+WHERE `ville’=’Paris’  <br> <br>
+
+<u>Requete 2)Afficher les immatrucaltions et les marques de voiture de couleur noire</u> <br>
+SELECT ‘immatriculation’, ‘marque’  <br>
+ FROM ` voiture`   <br>
+WHERE `couleur’=’'noir’  <br> <br>
+
+<u>Requete 3) Afficher toutes les iinformations sur les voitures ayant un kilométrage<10 000km </u> <br> 
+SELECT *  <br>
+ FROM ` voiture`  <br>
+WHERE `kilométrage’<10 000  <br> <br>
+
+<u>Requete 4) Afficher toutes les informations sur les voitures ayant une marque « Mercedes »</u> <br>
+SELECT *  <br>
+ FROM ` voiture`   <br>
+WHERE `marque’=’Mercedes’  <br> <br>
+
+<u>Requete 5) Afficher toutes les dates de location éffectuer par le client t200 </u><br>
+SELECT date_location  <br>
+ FROM ` location’ <br> 
+WHERE `client’=’t200’  <br> <br>
+
+<u>Requete 6) Afficher les « id_location et les dates locations concernant la voiture 22 TU 2000 </u> <br>
+SELECT `id_location’, ‘date_location’  <br> 
+ FROM ‘location’  <br>
+WHERE ‘immatriculation’=22 TU 2000  <br>
+</p>
+</body>
+</html>

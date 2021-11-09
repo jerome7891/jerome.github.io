@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function access(){
+			var username=prompt("Identifiant :");
+			var pass=prompt("mot de passe");
+
+			if (username=="admin_GSB" && pass=="admin" ){
+				document.write("connexion réussie");
+			}
+			else
+				{alert("Identifiant ou mot de passe incorrect")}
+		}
+	</script>
+</head>
+<body>
+		<input type="button" name="C" onclick="access()" value="Se connecter">
+</body>
+</html>
